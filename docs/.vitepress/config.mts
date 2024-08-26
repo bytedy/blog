@@ -53,7 +53,17 @@ export default defineConfig({
       { text: 'Sop', link: '/posts/sop/'},
       { text: 'Golang', link: '/posts/golang/', /*activeMatch: '^/posts/golang/' */},
 //      { text: 'About', link: 'https://bytedy.github.io/posts/about/' }
-      { text: 'About', link: '/posts/about/' }
+      { text: '关于我', link: '/posts/about/' },
+//      {
+//        text: '备战春秋',
+//        items: [
+//          { text: '心得总结', link: '/offer/experience/' },
+//          { text: '校招考点汇总', link: '/offer/campus/' },
+//          { text: '面经汇总', link: '/offer/sum-interview/' },
+//          { text: '复习自查', link: '/offer/review/' }
+//        ]
+//      },
+
     ],
     //侧标栏
     sidebar: {
