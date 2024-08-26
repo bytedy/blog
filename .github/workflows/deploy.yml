@@ -56,7 +56,7 @@ jobs:
       - name: 部署到 Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          repository-name: bytedy/bytedy.github.io
+          repository-name: bytedy/blog
           clean: true
           token: ${{ secrets.RAN_ACTIONS_TOKEN }}
           branch: action-pages
