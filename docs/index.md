@@ -1,5 +1,6 @@
 ---
 layout: home
+pageClass: m-home-layout
 # vitepress 首页
 hero:
   name: ByteDy
