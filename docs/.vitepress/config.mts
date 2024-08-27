@@ -59,7 +59,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'OpsDev',
+        text: 'DevOps',
         items: [
           { text: 'CICD', link: '/posts/opsdev/cicd/' },
           { text: 'Kube', link: '/posts/opsdev/kube/' },
