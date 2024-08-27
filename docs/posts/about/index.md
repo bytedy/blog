@@ -1,5 +1,5 @@
 ---
-title: 关于作者
+title: About
 description: 喜欢写点代码，喜欢写点博客，记录技术与生活点滴
 tag:
  - 关于作者

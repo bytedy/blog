@@ -49,33 +49,37 @@ export default defineConfig({
     },
     // 导航
     nav: [
-      { text: '首页', link: '/' },
-      { text: 'Sop', link: '/posts/sop/'},
-      { text: 'Golang', link: '/posts/golang/', /*activeMatch: '^/posts/golang/' */},
-//      { text: 'About', link: 'https://bytedy.github.io/posts/about/' }
-      { text: '关于我', link: '/posts/about/' },
-//      {
-//        text: '备战春秋',
-//        items: [
-//          { text: '心得总结', link: '/offer/experience/' },
-//          { text: '校招考点汇总', link: '/offer/campus/' },
-//          { text: '面经汇总', link: '/offer/sum-interview/' },
-//          { text: '复习自查', link: '/offer/review/' }
-//        ]
-//      },
-
+      { text: 'Home', link: '/' },
+      {
+        text: 'Programming',
+        items: [
+          { text: 'OpenJDK', link: '/posts/programming/openjdk/', /*activeMatch: '^/posts/golang/' */},
+          { text: 'GO', link: '/posts/programming/golang/', /*activeMatch: '^/posts/golang/' */},
+          { text: 'Python', link: '/posts/programming/python/', /*activeMatch: '^/posts/golang/' */},
+        ]
+      },
+      {
+        text: 'OpsDev',
+        items: [
+          { text: 'CICD', link: '/posts/opsdev/cicd/' },
+          { text: 'Kube', link: '/posts/opsdev/kube/' },
+          { text: 'Aws', link: '/posts/opsdev/aws/' },
+        ]
+      },
+      { text: 'Arch', link: '/posts/arch/'},
+      { text: 'About', link: '/posts/about/' },
     ],
     //侧标栏
     sidebar: {
-      '/posts/golang/': { text: 'Golang', items: [
+      '/posts/programming/golang/': { text: 'Golang', items: [
      
         {
           text: '新特性',
           collapsed: false,
           items: [
-            { text: 'Go 1.16 新特性', link: '/posts/golang/release_note/go_1_16.md' },
-            { text: 'Go 1.22 新特性', link: '/posts/golang/release_note/go_1_22.md' },
-            { text: 'Go 1.23 新特性', link: '/posts/golang/release_note/go_1_23.md' },
+            { text: 'Go 1.16 新特性', link: '/posts/programming/golang/release_note/go_1_16.md' },
+            { text: 'Go 1.22 新特性', link: '/posts/programming/golang/release_note/go_1_22.md' },
+            { text: 'Go 1.23 新特性', link: '/posts/programming/golang/release_note/go_1_23.md' },
           ],
         },
         {
