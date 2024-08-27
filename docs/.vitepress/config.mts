@@ -94,14 +94,10 @@ export default defineConfig({
         }
         
       ]},
-      '/posts/sop/': { text: "Sop", items: [
-        {
-          text: '快速开始',
-          collapsed: false,
-          items: [
-            { text: 'More', link: '/posts/sop/more.md' }, 
-          ],
-        },
+      '/posts/programming/python/': { text: "Python", items: [
+        { text: '配置', link: '/posts/programming/python/config.md' },
+        { text: '时区', link: '/posts/programming/python/timezone.md' },
+
       ]}
 
     },
