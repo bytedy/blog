@@ -72,7 +72,6 @@ export default defineConfig({
     //侧标栏
     sidebar: {
       '/posts/programming/golang/': { text: 'Golang', items: [
-     
         {
           text: '新特性',
           collapsed: false,
@@ -88,7 +87,7 @@ export default defineConfig({
           items: [
             // { text: 'JavaScript 优化技巧', link: '/posts/growth-record/base/javascript/javascript-optimization-tips' },
             {
-              items: [{text: "Index", link: "/posts/golang/index.md"}]
+              
             },
           ],
         }

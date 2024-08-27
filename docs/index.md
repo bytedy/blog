@@ -7,7 +7,7 @@ hero:
   text: 欢迎来到ByteDy的博客👋🏻
   tagline: 不要因为走得太久，而忘记了我们为什么出发
   image:
-    src: /数据时代.svg
+    src: /死神镰刀.svg
     alt: VitePress
   actions:
     - theme: brand
