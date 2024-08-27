@@ -1,6 +1,22 @@
 ---
 layout: home
-# 首页部分元素定制
+# vitepress 首页
+hero:
+  name: ByteDy
+  text: 欢迎来到ByteDy的博客👋🏻
+  tagline: 不要因为走得太久，而忘记了我们为什么出发
+  image:
+    src: /数据时代.svg
+    alt: VitePress
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /guide/what-is-vitepress
+    - theme: alt
+      text: View on GitHub
+      link: https://github.com/bytedy/blog
+
+# 博客首页部分元素定制
 blog:
  name: 👋🏻欢迎来到ByteDy的博客
  # motto: 简约风的 Vitepress 博客主题

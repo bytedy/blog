@@ -19,7 +19,7 @@ import { getThemeConfig } from '@sugarat/theme/node'
 const blogTheme = getThemeConfig({
   // 开启RSS支持
   // RSS,
-
+  blog: false,
   // 搜索
   // 默认开启pagefind离线的全文搜索支持（如使用其它的可以设置为false）
   // search: false,
